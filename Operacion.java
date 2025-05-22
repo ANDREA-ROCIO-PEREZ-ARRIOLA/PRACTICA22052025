@@ -24,5 +24,15 @@ public void sumar(){
     System.out.println("No se puede sumar sin argumentos");
 }
 
-
+public void ImprimirNumerosImpares(int a){
+    if(a%2 == 0){
+        System.out.println("El numero es impar " + a);
+    }
+    a--;
+    if(a>0){
+        ImprimirNumerosImpares(a);
+    }
 }
+}
+
+
