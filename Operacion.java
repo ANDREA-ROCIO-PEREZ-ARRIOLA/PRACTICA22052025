@@ -16,6 +16,13 @@ public int Sumar(int a, int b, int c) {
     return a + b + c;
 }
 
+public long Sumar(long a, int b) {
+    return a + b;
+}
+
+public void sumar(){
+    System.out.println("No se puede sumar sin argumentos");
+}
 
 
 }
