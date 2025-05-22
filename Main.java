@@ -21,6 +21,26 @@ public static void main(String[] args) {
         System.out.println("Resultado de la suma con un número negativo: " + result4);
 
         op.ImprimirNumerosImpares(5);
+
+        Opcion opcion = Opcion.SUMA;
+        if(opcion == Opcion.SUMA){
+            System.out.println("La opción seleccionada es SUMA");
+        }
+
+        switch (opcion) {
+            case SUMA:
+                System.out.println("La opción seleccionada es SUMA");
+                break;
+            case RESTA:
+                System.out.println("La opción seleccionada es RESTA");
+                break; 
+            case MULTIPLICACION:
+                System.out.println("La opción seleccionada es MULTIPLICACION");
+                break;
+            case DIVISION:
+                System.out.println("La opción seleccionada es DIVISION");               
+                break;
+        }
 }
 
 }
